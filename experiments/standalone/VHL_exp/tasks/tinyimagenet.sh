@@ -1,0 +1,9 @@
+export dataset=${dataset:-"Tiny-ImageNet-200"}
+export model_input_channels=${model_input_channels:-3}
+export model=${model:-"resnet50"}
+export num_classes=${num_classes:-200}
+export VHL_num=100
+export lr=${lr:-0.01}
+export image_resolution=64
+export VHL_dataset_list=${VHL_dataset_list:-"['style_GAN_init_64_c200']"}
+export VHL_dataset_batch_size=${VHL_dataset_batch_size:-64}
